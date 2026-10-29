@@ -1,0 +1,31 @@
+.container {
+    background-color: #444;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 12px 25px;
+}
+
+input[type="number"] {
+    padding: 12px;
+}
+
+label {
+    margin: 12px 16px;
+}
+
+select {
+    padding: 12px;
+}
+
+.result > p {
+    color: yellowgreen;
+    font-weight: 800;
+}
+
+.base-wrap {
+    width: 100%;
+}
+
